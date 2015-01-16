@@ -1506,7 +1506,8 @@ Copyright (c) 2013 Daniel Eden
 .btn-lg{padding:14px 36px}
 .hero{background-image:url(../images/hero.svg);background-color:#422364;background-repeat:no-repeat;background-position:60% 30%;min-height:inherit}
 .header{padding:35px 0}
-.header .tagline{display:block;color:#f26b45;font-size:14px;font-weight:700;text-transform:uppercase;padding:5px 0}
+.header .logo img{float:left;width:78px;height:78px}
+.header .tagline{display:block;color:#f26b45;font-size:14px;font-weight:700;text-transform:uppercase;padding:8px}
 .header .header-nav .nav-main{margin-top:15px}
 .header .header-nav .nav-main li{display:block;float:left;border:none}
 .header .header-nav .nav-main li a{display:block;color:#733db0;background:#fcf7ff;padding:10px 18px;margin:0;text-decoration:none;text-transform:uppercase;border-radius:0;border-right:solid 1px #eed3ff}
@@ -1516,7 +1517,7 @@ Copyright (c) 2013 Daniel Eden
 .intro{margin-top:7%;text-align:center}
 .intro .intro-box{max-width:910px;margin:auto}
 .intro .intro-box .intro-main{font-size:72px;font-weight:700;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5);text-transform:uppercase}
-.intro .intro-box .intro-tagline{font-size:18px;font-weight:400;color:rgba(255,255,255,.6);text-shadow:0 1px 1px rgba(0,0,0,.3);line-height:30px}
+.intro .intro-box .intro-tagline{font-size:18px;font-weight:400;color:rgba(255,255,255,.7);text-shadow:0 1px 1px rgba(0,0,0,.3);line-height:30px}
 .intro .intro-box .intro-dates{font-size:24px;font-weight:700;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.3);margin-top:20px}
 .intro .intro-box .intro-cta{margin-top:30px}
 .intro .intro-box .intro-cta .btn{box-shadow:0 1px 3px rgba(0,0,0,.2)}
