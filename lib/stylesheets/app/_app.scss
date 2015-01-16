@@ -13,9 +13,18 @@
  */
 //Section
 @import "section";
-//Hero
-@import "hero";
 //Header
 @import "header";
-//Intro
+
+/**
+ * Sections
+ */
+//Intro/Main Section
 @import "intro";
+//About Section
+@import "about";
+//Sponsors Section
+@import "sponsors";
+
+//Extras
+@import "extras";
