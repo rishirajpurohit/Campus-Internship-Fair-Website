@@ -5,6 +5,15 @@
  */
  .header{
  	padding: 35px 0;
+ 	//logo
+ 	.logo{
+ 		//img
+ 		img{
+ 			float: left;
+ 			width: 78px;
+ 			height: 78px;
+ 		}
+ 	}
 	//Tagline
 	.tagline{
 		display: block;
@@ -12,7 +21,7 @@
 		font-size: 14px;
 		font-weight: bold;
 		text-transform: uppercase;
-		padding: 5px 0;
+		padding: 8px;
 	}
 	//Header Nav
 	.header-nav{
