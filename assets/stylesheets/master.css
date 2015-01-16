@@ -1504,8 +1504,10 @@ Copyright (c) 2013 Daniel Eden
 .zoomOut{-webkit-animation-name:zoomOut;animation-name:zoomOut}
 .btn{padding:8px 24px;text-transform:uppercase;text-shadow:0 1px 1px rgba(0,0,0,.3)}
 .btn-lg{padding:14px 36px}
-.hero{background-image:url(../images/hero.svg);background-color:#422364;background-repeat:no-repeat;background-position:60% 30%;min-height:inherit}
-.header{padding:35px 0}
+.section{padding:40px 0;border-bottom:solid 1px #ddd}
+.section .section-title{font-size:48px;font-weight:lighter;color:#946da7;text-transform:uppercase;margin:30px 0}
+.section p{font-size:18px;color:#8f7c96;line-height:30px}
+.section .section-cta{margin-top:40px}
 .header .logo img{float:left;width:78px;height:78px}
 .header .tagline{display:block;color:#f26b45;font-size:14px;font-weight:700;text-transform:uppercase;padding:8px}
 .header .header-nav .nav-main{margin-top:15px}
@@ -1514,6 +1516,7 @@ Copyright (c) 2013 Daniel Eden
 .header .header-nav .nav-main li a:hover{background:#f8edff}
 .header .header-nav .nav-main li:first-child a{border-top-left-radius:2px;border-bottom-left-radius:2px}
 .header .header-nav .nav-main li:last-child a{border-top-right-radius:2px;border-bottom-right-radius:2px;border-right:none}
+.main-section{background-image:url(../images/hero.svg);background-color:#422364;background-repeat:no-repeat;background-position:60% 30%;min-height:inherit;background-attachment:fixed;border-bottom:none}
 .intro{margin-top:7%;text-align:center}
 .intro .intro-box{max-width:910px;margin:auto}
 .intro .intro-box .intro-main{font-size:72px;font-weight:700;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5);text-transform:uppercase}
@@ -1524,3 +1527,7 @@ Copyright (c) 2013 Daniel Eden
 .intro .intro-box .intro-extra{margin-top:40px}
 .intro .intro-box .intro-extra a{color:#fff;background:rgba(0,0,0,.5);padding:10px 40px;text-decoration:none}
 .intro .intro-box .intro-extra a:hover{background:rgba(0,0,0,.6)}
+.sponsors-section .sponsor-list{margin-bottom:100px}
+.sponsors-section .sponsor-list .sponsor:hover img{-webkit-filter:none;filter:none}
+.sponsors-section .sponsor-list .sponsor img{-webkit-transition:all .3s ease-in;transition:all .3s ease-in;background:#eee;border-radius:3px;-webkit-filter:grayscale(100%);filter:grayscale(100%)}
+a{-webkit-transition:all .3s linear;transition:all .3s linear}
