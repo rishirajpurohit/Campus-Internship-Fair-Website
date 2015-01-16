@@ -1,0 +1,61 @@
+/**
+ * Name: Intro
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+ .intro{
+ 	margin-top: 7%;
+ 	text-align: center;
+	//Intro Box
+	.intro-box{
+		max-width: $intro-box-width;
+		margin: auto;
+		//Intro Main
+		.intro-main{
+			font-size: $intro-main-font-size;
+			font-weight: $intro-main-font-weight;
+			color: $intro-main-color;
+			text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+			text-transform: uppercase;
+		}
+		//Intro Tagline
+		.intro-tagline{
+			font-size: $intro-tagline-font-size;
+			font-weight: $intro-tagline-font-weight;
+			color: $intro-tagline-color;
+			text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+			line-height: $intro-tagline-line-height;
+		}
+		//Intro Dates
+		.intro-dates{
+			font-size: $intro-date-font-size;
+			font-weight: $intro-date-font-weight;
+			color: $intro-date-color;
+			text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+			margin-top: 20px;
+		}
+		//Intro CTA
+		.intro-cta{
+			margin-top: 30px;
+			//Btn
+			.btn{
+				box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+			}
+		}
+		//Intro Extra
+		.intro-extra{
+			margin-top: 40px;
+			//a
+			a{
+				color: $intro-extra-color;
+				background: $intro-extra-bg;
+				padding: $intro-extra-padding;
+				text-decoration: none;
+				//:hover
+				&:hover{
+					background: $intro-extra-bg-hover;
+				}
+			}
+		}
+	}
+}
