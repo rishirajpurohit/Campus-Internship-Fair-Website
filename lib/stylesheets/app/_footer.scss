@@ -11,5 +11,9 @@
 		text-transform: none;
 		color: $brand-success;
 		font-size: 14px;
+		//hover
+		&:hover{
+			color: darken($brand-success, 10%);
+		}
 	}
 }

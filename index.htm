@@ -15,7 +15,7 @@
         <!-- Main -->
         <div class="main">
             <!-- Main Section -->
-            <div class="main-section section" data-section="true">
+            <div class="main-section section" data-section="true" id="main-section">
                 <!-- Hero -->
                 <div class="hero">
                     <!-- Header -->
@@ -23,32 +23,35 @@
                         <!-- Container -->
                         <div class="container">
                             <!-- Row -->
-                            <div class="row">
-                                <a href="index.htm" class="logo"><img src="assets/images/logo.png" class="animated slideInLeft img-responsive" alt="gHack"></a>
-                                <div class="col-lg-1">
-                                    <span class="tagline animated slideInLeft">Hackers Gonna Hack.</span>
+                            <div class="clearfix">
+                                <div class="brand-logo clearfix">
+                                    <a href="index.htm" class="animated zoomIn logo"><img src="assets/images/logo.png" class="img-responsive" alt="gHack"></a>
+                                    <div class="tagline animated slideInLeft">Hackers<br>Gonna<br>Hack.</div>
                                 </div>
+                                <!--Nav-Toggle-->
+                                <a class="btn btn-default pull-right nav-toggle hidden-lg hidden-md"><i class="icon icon-reorder"></i></a>
+                                <!--End: Nav-Toggle-->
                                 <!-- Header Nav -->
-                                <div class="header-nav pull-right animated slideInRight">
+                                <div class="header-nav pull-right animated slideInRight visible-lg visible-md">
                                     <!-- Nav Main -->
                                     <ul class="nav nav-main">
                                         <li>
-                                            <a href="#">Home</a>
+                                            <a href="#main-section">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#about-section">About</a>
                                         </li>
                                         <li>
-                                            <a href="#">Sponsors</a>
+                                            <a href="#sponsors-section">Sponsors</a>
                                         </li>
                                         <li>
-                                            <a href="#">Schedule</a>
+                                            <a href="#schedule-section">Schedule</a>
                                         </li>
                                         <li>
-                                            <a href="#">FAQ</a>
+                                            <a href="#faq-section">FAQ</a>
                                         </li>
                                         <li>
-                                            <a href="#">Contact</a>
+                                            <a href="#contact-section">Contact</a>
                                         </li>
                                         <li>
                                             <a href="#">Blog</a>
@@ -104,21 +107,21 @@
             </div>
             <!-- End: Main Section -->
             <!-- About Section -->
-            <div class="about-section section" data-animate="true" data-section="true">
+            <div class="about-section section" data-animate="true" data-section="true" id="about-section">
                 <!-- Container -->
                 <div class="container">
                     <!-- Section Title -->
-                    <h3 class="section-title hidden slideInLeft">About</h3>
-                    <p class="hidden fadeInUp">
+                    <h3 class="section-title toBeAnimated slideInLeft">About</h3>
+                    <p class="toBeAnimated fadeInUp">
                         Hackathons are about coding together to solve real world problems. Students, Developers, Entrepreneurs, Designers and Idea generators will come together to build amazing applications, in an effort to create world a better place. Participants will spend 36 hours building a solution to a problem they really want to solve. gHack is a Student-Run College Hackathon, organized by the students of Ganpat University.
                     </p>
                     <!-- Section Title -->
-                    <h3 class="section-title hidden slideInLeft">Our Goal</h3>
-                    <p class="hidden fadeInUp">
+                    <h3 class="section-title toBeAnimated slideInLeft">Our Goal</h3>
+                    <p class="toBeAnimated fadeInUp">
                         Our goal is to get developers, designers and entrepreneurs come together, form connections and apply their skills to create something of value. By creating a makerspace, creators are engaged and are able to collaborate to create a solution, on which they would go on to build a company. The hackathon will be in an intellectually stimulating environment that will spur innovation and collaboration.
                     </p>
                     <!-- Section CTA -->
-                    <div class="section-cta hidden fadeInUp">
+                    <div class="section-cta toBeAnimated fadeInUp">
                         <p>Ready? Let’s Go!</p>
                         <a href="#" class="btn btn-success btn-lg">Register Now</a>
                     </div>
@@ -127,13 +130,13 @@
                 <!-- Container -->
             </div>
             <!-- Sponsors Section -->
-            <div class="sponsors-section section" data-animate="true" data-section="true">
+            <div class="sponsors-section section" data-animate="true" data-section="true" id="sponsors-section">
                 <!-- Container -->
                 <div class="container">
                     <!-- Section Title -->
-                    <h3 class="section-title hidden slideInLeft">Sponsors</h3>
+                    <h3 class="section-title toBeAnimated slideInLeft">Sponsors</h3>
                     <!-- Sponsor List -->
-                    <div class="sponsor-list row hidden slideInLeft">
+                    <div class="sponsor-list row toBeAnimated slideInLeft">
                         <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
                             <a href="#" class="sponsor">
                                 <img src="assets/images/sponsors/gnu.png" class="img-responsive" alt="sponsor">
@@ -142,12 +145,12 @@
                     </div>
                     <!-- End: Sponsor List -->
                     <!-- Section Title -->
-                    <h3 class="section-title hidden slideInLeft">Interested in Sponsoring?</h3>
-                    <p class="hidden fadeInUp">
+                    <h3 class="section-title toBeAnimated slideInLeft">Interested in Sponsoring?</h3>
+                    <p class="toBeAnimated fadeInUp">
                         Technology entreprenurship has taken a whole new meaning in the last 5 years amongst the Indian student community. Hackathons and incubators, provide these entrepreneurs the much needed support to come together and build an application or a company around it.
                     </p>
                     <!-- Section CTA -->
-                    <div class="section-cta hidden fadeInUp">
+                    <div class="section-cta toBeAnimated fadeInUp">
                         <p>Download the sponsorship proposal.</p>
                         <a href="#" class="btn btn-success btn-lg">Download</a>
                     </div>
@@ -157,13 +160,13 @@
             </div>
             <!-- End: Sponsors Section -->
             <!-- Schedule Section -->
-            <div class="schedule-section section" data-animate="true" data-section="true">
+            <div class="schedule-section section" data-animate="true" data-section="true" id="schedule-section">
                 <!-- Container -->
                 <div class="container">
                     <!-- Section Title -->
-                    <h3 class="section-title hidden slideInLeft">Schedule</h3>
+                    <h3 class="section-title toBeAnimated slideInLeft">Schedule</h3>
                     <!-- Schedule Tables -->
-                    <div class="schedule-tables hidden fadeInUp">
+                    <div class="schedule-tables toBeAnimated fadeInUp">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -275,12 +278,12 @@
                     </div>
                     <!-- End: Schedule Tables -->
                     <!-- Schedule Notice -->
-                    <div class="schedule-notice hidden fadeInUp">
+                    <div class="schedule-notice toBeAnimated fadeInUp">
                         Plethora of snacks, coffee &amp; energy drinks will be available throughout the event. We’ve got you covered!
                     </div>
                     <!-- End: Schedule Notice -->
                     <!-- Venue Details -->
-                    <div class="venue-details hidden fadeInUp">
+                    <div class="venue-details toBeAnimated fadeInUp">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -305,7 +308,7 @@
                                         380061
                                     </div>
                                     <!-- Map Link -->
-                                    <a href="#" class="btn btn-default map-link">View on Google Maps <i class="icon icon-map-marker icon-right"></i></a>
+                                    <a href="#" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
                                 </div>
                             </div>
                         </div>
@@ -317,43 +320,43 @@
             </div>
             <!-- End: Schedule Section -->
             <!-- FAQ Section -->
-            <div class="faq-section section" data-section="true">
+            <div class="faq-section section" data-animate="true" data-section="true" id="faq-section">
                 <!-- Container -->
                 <div class="container">
                     <!-- Section Header -->
                     <div class="row section-header">
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <!-- Section Title -->
-                            <h3 class="section-title">FAQ</h3>
+                            <h3 class="section-title toBeAnimated slideInLeft">FAQ</h3>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 pull-right">
-                            <input type="search" placeholder="Search FAQs..." class="form-control search">
+                            <input type="search" placeholder="Search FAQs..." class="form-control search toBeAnimated slideInRight">
                         </div>
                     </div>
                     <!-- End: Section Header -->
                     <!-- FAQ List -->
-                    <div class="faq-list">
+                    <div class="faq-list toBeAnimated fadeInUp">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingOne">
-                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Collapsible Group Item #1</a></h4>
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What’s the application process like?</a></h4>
                                         </div>
-                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                             <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                We’re looking for creative and innovative people having a set of skills that can contribute to a project: mobile, web, design, or anything else really useful.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingTwo">
-                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Collapsible Group Item #2</a></h4>
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">What do you mean by "HACK"?</a></h4>
                                         </div>
                                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                             <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                Don't worry. It's just a bunch of passionate and innovative people getting together to build things that solve problems. A hackathon is a way to get people together to make useful stuff.
                                             </div>
                                         </div>
                                     </div>
@@ -363,21 +366,25 @@
                                 <div class="panel-group" id="accordion-two" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingThree">
-                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Collapsible Group Item #1</a></h4>
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Will I be charged?</a></h4>
                                         </div>
-                                        <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                             <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                Nothing. gHack is completely FREE, including delicious food, drinks and swag! :).
                                             </div>
                                         </div>
                                     </div>
                                     <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingFour">
-                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Collapsible Group Item #2</a></h4>
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">What do I need to bring?</a></h4>
                                         </div>
                                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                             <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                <b>Need</b>: A Laptop and charger. Mobile and charger. An extra t-shirt.
+                                                <br>
+                                                <b>Don’t need</b>: A pre-formed team, an idea for an app, food or drinks.
+                                                <br>
+                                                We'll provide you lots of healthy food and drinks to keep you supercharged! We'll also provide space to sleep or take a nap if you feel exhausted.
                                             </div>
                                         </div>
                                     </div>
@@ -392,16 +399,16 @@
             </div>
             <!-- End: FAQ Section -->
             <!-- Contact Section -->
-            <div class="contact-section section" data-section="true">
+            <div class="contact-section section" data-animate="true" data-section="true" id="contact-section">
                 <!-- Container -->
                 <div class="container">
                     <!-- Section Title -->
-                    <h3 class="section-title">Contact</h3>
-                    <p class="section-notice">
+                    <h3 class="section-title toBeAnimated slideInLeft">Contact</h3>
+                    <p class="section-notice toBeAnimated slideInLeft">
                         Have Questions? Feel free to contact us using the form below. Your can also mail us directly at: <a href="mailto:hello@ghack.org"><b>hello@ghack.org</b></a>
                     </p>
                     <!-- Contact Area -->
-                    <div class="contact-area">
+                    <div class="contact-area toBeAnimated fadeInUp">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -438,17 +445,21 @@
                                 <div class="social-links">
                                     <!-- Title -->
                                     <div class="title">Stay Updated</div>
-                                    <a href="http://facebook.com/hack.at.ghack" class="social-link facebook">
+                                    <a href="http://facebook.com/hack.at.ghack" target="_blank" class="social-link facebook">
                                         <i class="icon icon-facebook-square"></i>
                                         Like us on Facebook
                                     </a>
-                                    <a href="http://twitter.com/hack.at.ghack" class="social-link twitter">
+                                    <a href="http://twitter.com/hack.at.ghack" target="_blank" class="social-link twitter">
                                         <i class="icon icon-twitter"></i>
                                         Follow us on Twitter
                                     </a>
-                                    <a href="http://instagram.com/ghack" class="social-link instagram">
+                                    <a href="http://instagram.com/ghack" target="_blank" class="social-link instagram">
                                         <i class="icon icon-instagram"></i>
                                         Follow us on Instagram
+                                    </a>
+                                    <a href="tel:917600965334" target="_blank" class="social-link phone">
+                                        <i class="icon icon-phone-square"></i>
+                                        Call: +91-760-096-5334
                                     </a>
                                 </div>
                                 <!-- End: Social Links -->
@@ -467,10 +478,10 @@
                 <div class="container">
                     <!-- Row -->
                     <div class="row">
-                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pull-right">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 pull-right">
                             <a href="#main-section" class="btn btn-block btn-link">Back to top</a>
                         </div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <a href="index.htm" class="copyright btn-block btn btn-link">gHack. 2015 - All rights reserved.</a>
                         </div>
                     </div>
@@ -483,6 +494,7 @@
         <!-- End: Main -->
     </div>
     <!-- End: Site -->
+    <div class="overlay"></div>
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="assets/javascripts/master.js"></script>

@@ -4,12 +4,17 @@
  * Version: 1.0.0
  */
  .header{
- 	//padding: 35px 0;
+ 	//Brand Logo
+ 	.brand-logo{
+ 		float: left;
+ 	}
  	//logo
  	.logo{
+ 		display: block;
+ 		padding-left: 20px;
+ 		float: left;
  		//img
  		img{
- 			float: left;
  			width: 78px;
  			height: 78px;
  			animation-duration: 2s;
@@ -18,12 +23,19 @@
 	//Tagline
 	.tagline{
 		display: block;
+		float: left;
 		color: $brand-success;
 		font-size: 14px;
 		font-weight: bold;
 		text-transform: uppercase;
 		padding: 8px;
+		margin-left: 10px;
 		animation-duration: 1s;
+	}
+	//Nav-Toggle
+	.nav-toggle{
+		font-size: 16px;
+		margin-top: 15px;
 	}
 	//Header Nav
 	.header-nav{
@@ -72,4 +84,38 @@
 			}
 		}
 	}
-}
+	//Sticky
+	&.sticky{
+		animation: none !important;
+		position: fixed;
+		z-index: 10000;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		background: rgb(66, 35, 100);
+		padding: 5px;
+		box-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 4px;
+ 		//Logo
+ 		.logo{
+ 			animation: none !important;
+ 			//Img
+ 			img{
+ 				width: 35px;
+ 				height: 35px;
+ 			}
+ 		}
+ 		//Tagline
+ 		.tagline{
+ 			animation: none !important;
+ 			display: none;
+ 		}
+ 		//HeaderNav
+ 		.header-nav{
+ 			animation: none !important;
+	 		//.nav-main
+	 		.nav-main{
+	 			margin-top: 1px;
+	 		}
+	 	}
+	 }
+	}
