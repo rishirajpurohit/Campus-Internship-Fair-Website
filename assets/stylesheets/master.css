@@ -1555,10 +1555,9 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .faq-section .section-header .section-title{margin:0}
 .faq-section .section-header .search{margin-top:12px}
 .faq-section .faq-list .panel-heading{background:#fff;padding:0}
-.faq-section .faq-list .panel-heading .panel-title{font-size:18px;color:#f26b45;font-weight:lighter}
-.faq-section .faq-list .panel-heading .panel-title a{background:#fff;display:block;text-align:center;padding:20px;text-decoration:none}
+.faq-section .faq-list .panel-heading .panel-title a{background:#fff;font-size:18px;color:#f26b45;display:block;text-align:center;padding:20px;text-decoration:none}
 .faq-section .faq-list .panel-heading .panel-title a:hover{background:#f8f8f8}
-.faq-section .faq-list .panel-body{font-size:16px;color:#777}
+.faq-section .faq-list .panel-body{font-size:14px;color:#777}
 .contact-section .section-title{margin-bottom:10px}
 .contact-section .section-notice{font-size:16px}
 .contact-section .section-notice a{color:#f26b45}

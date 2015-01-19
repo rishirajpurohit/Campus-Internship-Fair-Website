@@ -25,12 +25,11 @@
 			padding:0;
 			//panel-title
 			.panel-title{
-				font-size: 18px;
-				color: $brand-success;
-				font-weight: lighter;
 				//a
 				a{
 					background: #fff;
+					font-size: 18px;
+					color: $brand-success;
 					display: block;
 					text-align: center;
 					padding: 20px;
@@ -44,7 +43,7 @@
 		}
 		//Panel Body
 		.panel-body{
-			font-size: 16px;
+			font-size: 14px;
 			color: $gray-light;
 		}
 	}
