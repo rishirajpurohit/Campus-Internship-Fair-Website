@@ -1541,9 +1541,9 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .schedule-section .schedule-tables .schedule-heading{font-weight:lighter;font-size:24px;color:#9a6dcc}
 .schedule-section .schedule-tables .schedule-table{background:#1c0f2b;border-radius:5px;padding:20px 25px 1px}
 .schedule-section .schedule-tables .schedule-blocks{margin-top:30px}
-.schedule-section .schedule-tables .schedule-blocks .schedule{background:rgba(255,255,255,.9);padding:25px;border-radius:3px;margin-bottom:25px;font-size:18px;text-transform:uppercase}
+.schedule-section .schedule-tables .schedule-blocks .schedule{background:rgba(255,255,255,.9);padding:10px 20px;border-radius:3px;margin-bottom:25px;font-size:18px;text-transform:uppercase}
 .schedule-section .schedule-tables .schedule-blocks .schedule .time{color:#66379d}
-.schedule-section .schedule-tables .schedule-blocks .schedule .title{color:#f26b45;float:right}
+.schedule-section .schedule-tables .schedule-blocks .schedule .title{color:#f26b45;display:block}
 .schedule-section .schedule-notice{color:rgba(255,255,255,.8);text-shadow:0 1px 1px rgba(0,0,0,.3);font-size:18px;padding:40px 20px;text-align:center}
 .schedule-section .venue-details .venue-map{margin-bottom:30px}
 .schedule-section .venue-details .venue-map a{display:block}
