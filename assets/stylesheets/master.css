@@ -1521,7 +1521,7 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .header.sticky .tagline{-webkit-animation:none!important;animation:none!important;display:none}
 .header.sticky .header-nav{-webkit-animation:none!important;animation:none!important}
 .header.sticky .header-nav .nav-main{margin-top:1px}
-.main-section{background-image:url(../images/hero.jpg);background-color:#0f5b57;background-repeat:no-repeat;background-position:60% 30%;min-height:inherit;background-attachment:fixed;border-bottom:none;padding:0}
+.main-section{background:url(../images/hero.jpg) 60% 30%/cover no-repeat fixed #0f5b57;min-height:inherit;border-bottom:none;padding:0}
 .hero{background:rgba(0,0,0,.8);padding:50px 0}
 .intro{margin-top:7%;text-align:center}
 .intro .intro-box{max-width:1000px;margin:auto}
