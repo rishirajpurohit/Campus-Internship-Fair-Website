@@ -15,8 +15,9 @@
  		float: left;
  		//img
  		img{
- 			width: 78px;
- 			height: 78px;
+ 			max-width: 150px;
+ 			width: 100%;
+ 			height: auto;
  			animation-duration: 2s;
  		}
  	}
@@ -42,7 +43,7 @@
 		animation-duration: 2s;
 		//Nav Main
 		.nav-main{
-			margin-top: 20px;
+			margin-top: 25px;
 			//li
 			li{
 				display: block;

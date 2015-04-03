@@ -4,7 +4,7 @@
  * Version: 1.0.0
  */
  .main-section{
- 	background-image: url(../images/hero.svg);
+ 	background-image: url(../images/hero.jpg);
  	background-color: $hero-bg;
  	background-repeat: no-repeat;
  	background-position: 60% 30%;
@@ -12,6 +12,11 @@
  	background-attachment: fixed;
  	//padding: 0;
  	border-bottom: none;
+ 	padding :0;
+ }
+ .hero{
+ 	background: rgba(0,0,0,0.8);
+ 	padding: 50px 0;
  }
  .intro{
  	margin-top: 7%;
