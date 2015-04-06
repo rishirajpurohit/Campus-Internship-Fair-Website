@@ -27,3 +27,19 @@
 		}
 	}
 }
+
+//team members
+.team-members{
+	margin-top: 30px;
+}
+//team-member
+.team-member{
+	display: block;
+	margin-bottom: 15px;
+	img{
+		filter: none !important;
+		//max-height: 280px;
+		//height: 100%;
+		border-radius: 4px;
+	}
+}
