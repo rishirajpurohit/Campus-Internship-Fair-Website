@@ -1,3 +1,3 @@
-gHack
+Event
 =====
-This is the source for the gHack website.
+Event page website.
